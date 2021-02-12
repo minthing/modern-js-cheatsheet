@@ -17,7 +17,7 @@
 
 더해서, 어쩌면 너무 개인적일 수도 있지만, 개인적으로 추천받았던 몇가지 팁들을 공유할 것입니다.
 
-> **Note:** 대부분의 콘셉트는 다음 자바스크립트 문서에서 확인 하실 수 있습니다 (ES2015, often called ES6).다음 업데이트를 통해 최신 추가된 feature들을 확인 할 수 있습니다. [here](http://es6-features.org); 아주 정리가 잘 되어 있습니다.
+> **Note:** 대부분의 콘셉트는 다음 자바스크립트 문서에서 확인 하실 수 있습니다 (ES2015, often called ES6).다음 업데이트를 통해 최신 추가된 feature들을 확인 할 수 있습니다. [여기](http://es6-features.org)에 아주 정리가 잘 되어 있습니다.
 
 ### 보완 문서
 
@@ -261,7 +261,7 @@ console.log(myVar) // ReferenceError가 발생함.
 let myVar = 2;
 ```
 
-By contrast with *var* variables, if you try to read or write on a *let* or *const* variable before they are assigned an error will be raised. This phenomenon is often called [*Temporal dead zone*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let#Temporal_Dead_Zone_and_errors_with_let) or *TDZ*.
+반면에 *var* 변수와 다르게, *let*이나 *const* 변수가 대입되기 전에 읽어드리려 한다면 에러가 발생할 것입니다. This phenomenon is often called [*Temporal dead zone*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let#Temporal_Dead_Zone_and_errors_with_let) or *TDZ*.
 
 > **Note:** Technically, *let* and *const* variables declarations are being hoisted too, but not their assignation. Since they're made so that they can't be used before assignation, it intuitively feels like there is no hoisting, but there is. Find out more on this [very detailed explanation here](http://jsrocks.org/2015/01/temporal-dead-zone-tdz-demystified) if you want to know more.
 
